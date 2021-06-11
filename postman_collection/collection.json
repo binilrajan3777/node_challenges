@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "833f55f3-218f-4ddd-9119-e63c0bd7cd4c",
+		"name": "Riafy_Node_Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"Batman\",\r\n    \"password\":\"iambatman\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/login",
+							"protocol": "https",
+							"host": [
+								"nodejschallenges",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SearchCompanies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzQyNDg5NiwiZXhwIjoxNjIzNTExMjk2fQ.8bKmh9YAYePr8o27H-058U8E5aBJ4FQVxkaUftVDiwMHbkY0xfmNJ4w_VtL4pu5Dri5IZ1S0VKZ1ic3AkRm4GQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/searchstocks/coal",
+							"protocol": "https",
+							"host": [
+								"nodejschallenges",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"user",
+								"searchstocks",
+								"coal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCompanyDetatils",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzQyNDg5NiwiZXhwIjoxNjIzNTExMjk2fQ.8bKmh9YAYePr8o27H-058U8E5aBJ4FQVxkaUftVDiwMHbkY0xfmNJ4w_VtL4pu5Dri5IZ1S0VKZ1ic3AkRm4GQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/getdetails/2",
+							"protocol": "https",
+							"host": [
+								"nodejschallenges",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"user",
+								"getdetails",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Suggestions",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzQyNDg5NiwiZXhwIjoxNjIzNTExMjk2fQ.8bKmh9YAYePr8o27H-058U8E5aBJ4FQVxkaUftVDiwMHbkY0xfmNJ4w_VtL4pu5Dri5IZ1S0VKZ1ic3AkRm4GQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"co\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/suggestion",
+							"protocol": "https",
+							"host": [
+								"nodejschallenges",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"user",
+								"suggestion"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

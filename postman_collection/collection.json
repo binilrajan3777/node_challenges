@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "1f0f4a95-0bb3-4a33-997b-324fe592816a",
+		"name": "Riafy_Node_Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"Batman\",\r\n    \"password\":\"iambatman\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1375/api/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1375",
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SearchCompanies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzI1NzYxOSwiZXhwIjoxNjIzMzQ0MDE5fQ.EKVYwKCOTRKOld47RmiDJRbx5Q80t8P3R4nRNQi-n8svlFBOVwXIwAPGyyDxM13Tark1h3eM1TBSB5lKJcFwJw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1375/api/user/searchstocks/coal",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1375",
+							"path": [
+								"api",
+								"user",
+								"searchstocks",
+								"coal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCompanyDetatils",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzI0OTY4NywiZXhwIjoxNjIzMzM2MDg3fQ.ONAfCAXwV1curkSUsYt4ARjvOTP70hitzxcCAm5q7OllelVUnq3LL54H7TZZKGMKenMfrgbQzjt04UVyHj7HUw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1375/api/user/getdetails/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1375",
+							"path": [
+								"api",
+								"user",
+								"getdetails",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Suggestions",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzI0OTY4NywiZXhwIjoxNjIzMzM2MDg3fQ.ONAfCAXwV1curkSUsYt4ARjvOTP70hitzxcCAm5q7OllelVUnq3LL54H7TZZKGMKenMfrgbQzjt04UVyHj7HUw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"co\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1375/api/user/suggestion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1375",
+							"path": [
+								"api",
+								"user",
+								"suggestion"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

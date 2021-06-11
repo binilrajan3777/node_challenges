@@ -1,8 +1,8 @@
 .form-control-borderless {
     border: none;
 }
-.form-control 
-{
+
+.form-control {
     border: 0px;
 }
 
@@ -11,6 +11,24 @@
     outline: none;
     box-shadow: none;
 }
-.card{
+
+.card {
     border-radius: 1.25rem;
+}
+
+.center {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 8px;
+}
+
+.alient {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 100px;
+    text-align: center !important;
 }

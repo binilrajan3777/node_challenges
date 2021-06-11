@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "1f0f4a95-0bb3-4a33-997b-324fe592816a",
+		"_postman_id": "833f55f3-218f-4ddd-9119-e63c0bd7cd4c",
 		"name": "Riafy_Node_Challenge",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -23,12 +23,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:1375/api/user/login",
-							"protocol": "http",
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/login",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"nodejschallenges",
+								"herokuapp",
+								"com"
 							],
-							"port": "1375",
 							"path": [
 								"api",
 								"user",
@@ -46,7 +47,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzI1NzYxOSwiZXhwIjoxNjIzMzQ0MDE5fQ.EKVYwKCOTRKOld47RmiDJRbx5Q80t8P3R4nRNQi-n8svlFBOVwXIwAPGyyDxM13Tark1h3eM1TBSB5lKJcFwJw",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzQyNDg5NiwiZXhwIjoxNjIzNTExMjk2fQ.8bKmh9YAYePr8o27H-058U8E5aBJ4FQVxkaUftVDiwMHbkY0xfmNJ4w_VtL4pu5Dri5IZ1S0VKZ1ic3AkRm4GQ",
 									"type": "string"
 								}
 							]
@@ -63,12 +64,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:1375/api/user/searchstocks/coal",
-							"protocol": "http",
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/searchstocks/coal",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"nodejschallenges",
+								"herokuapp",
+								"com"
 							],
-							"port": "1375",
 							"path": [
 								"api",
 								"user",
@@ -87,7 +89,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzI0OTY4NywiZXhwIjoxNjIzMzM2MDg3fQ.ONAfCAXwV1curkSUsYt4ARjvOTP70hitzxcCAm5q7OllelVUnq3LL54H7TZZKGMKenMfrgbQzjt04UVyHj7HUw",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzQyNDg5NiwiZXhwIjoxNjIzNTExMjk2fQ.8bKmh9YAYePr8o27H-058U8E5aBJ4FQVxkaUftVDiwMHbkY0xfmNJ4w_VtL4pu5Dri5IZ1S0VKZ1ic3AkRm4GQ",
 									"type": "string"
 								}
 							]
@@ -95,12 +97,13 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:1375/api/user/getdetails/2",
-							"protocol": "http",
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/getdetails/2",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"nodejschallenges",
+								"herokuapp",
+								"com"
 							],
-							"port": "1375",
 							"path": [
 								"api",
 								"user",
@@ -119,7 +122,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzI0OTY4NywiZXhwIjoxNjIzMzM2MDg3fQ.ONAfCAXwV1curkSUsYt4ARjvOTP70hitzxcCAm5q7OllelVUnq3LL54H7TZZKGMKenMfrgbQzjt04UVyHj7HUw",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjEsImlhdCI6MTYyMzQyNDg5NiwiZXhwIjoxNjIzNTExMjk2fQ.8bKmh9YAYePr8o27H-058U8E5aBJ4FQVxkaUftVDiwMHbkY0xfmNJ4w_VtL4pu5Dri5IZ1S0VKZ1ic3AkRm4GQ",
 									"type": "string"
 								}
 							]
@@ -136,12 +139,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:1375/api/user/suggestion",
-							"protocol": "http",
+							"raw": "https://nodejschallenges.herokuapp.com/api/user/suggestion",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"nodejschallenges",
+								"herokuapp",
+								"com"
 							],
-							"port": "1375",
 							"path": [
 								"api",
 								"user",
